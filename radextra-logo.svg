@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">RADEXTRA</title>
+  <desc id="desc">Emblem radiologi hijau dengan simbol tambah perubatan.</desc>
+  <defs>
+    <linearGradient id="green" x1="14" y1="10" x2="112" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40916c"/>
+      <stop offset="1" stop-color="#1b4332"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#green)"/>
+  <circle cx="64" cy="64" r="48" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M64 28v72M28 64h72" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="9"/>
+  <circle cx="64" cy="64" r="15" fill="#1b4332" stroke="#fff" stroke-width="5"/>
+</svg>

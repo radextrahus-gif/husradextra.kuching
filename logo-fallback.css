@@ -1,0 +1,32 @@
+/* Provide a local RADEXTRA mark when the legacy Radextra1.png asset is unavailable. */
+.brand-icon img,
+.login-logo-svg {
+  display: none !important;
+}
+
+.brand-icon {
+  position: relative;
+}
+
+.brand-icon::before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: url("radextra-logo.svg") center / contain no-repeat;
+}
+
+.login-logo-svg-wrap::before {
+  content: "";
+  display: block;
+  width: 210px;
+  height: 210px;
+  background: url("radextra-logo.svg") center / contain no-repeat;
+}
+
+@media (max-width: 480px) {
+  .login-logo-svg-wrap::before {
+    width: 170px;
+    height: 170px;
+  }
+}
